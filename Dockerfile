@@ -1,10 +1,1 @@
-From gcr.io/google_containers/k8s-dns-kube-dns-amd64:1.14.5
-From gcr.io/google_containers/heapster-amd64:v1.4.2
-From gcr.io/google_containers/kubernets-dashboard-amd64:v1.8.1
-From gcr.io/google_containers/heapster-grafana-amd64:v4.4.3
-From gcr.io/google_containers/heapster-influxdb-amd64:v1.3.3
-From docker.io/istio/istio-ca:0.5.1
-From docker.io/istio/proxy:0.5.1
-From docker.io/istio/pilot:0.5.1
-From prom/statsd-exporter:V0.5.0
-From k8s.gcr.io/coredns:v1.2.6
+FROM k8s.gcr.io/heapster-amd64:v1.5.4
