@@ -1,0 +1,1 @@
+FROM gcr.iogoogle_containersheapster-influxdb-amd64v1.3.3

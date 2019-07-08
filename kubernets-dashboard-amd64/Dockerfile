@@ -1,0 +1,1 @@
+FROM gcr.io/google_containers/kubernets-dashboard-amd64:v1.8.1
